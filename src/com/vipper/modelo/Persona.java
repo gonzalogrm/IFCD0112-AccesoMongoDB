@@ -32,6 +32,18 @@ public class Persona {
 		this.empresa = empresa;
 		this.telefono = telefono;
 	}
+	
+	public Persona(String id, String nombre, int edad, String email, String genero, String empresa,
+			String telefono) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.edad = edad;
+		this.email = email;
+		this.genero = genero;
+		this.empresa = empresa;
+		this.telefono = telefono;
+	}
 
 	public String getId() {
 		return id;
